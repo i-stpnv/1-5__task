@@ -2,12 +2,10 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
 
 if (document.documentElement.clientWidth < 768) {
-    let swiperContainer = document.querySelector('.brands-repair__content');
-    let swiperWrapper = document.querySelector('.brands-repair__list');
+    let swiperElem = document.querySelector('.brands-repair__list');
     let swiperSlides = document.querySelectorAll('.brands-repair__item');
 
-    swiperContainer.classList.add('swiper');
-    swiperWrapper.classList.add('swiper-wrapper');
+    swiperElem.classList.add('swiper');
     for (let i = 0; i < swiperSlides.length; i++) {
         swiperSlides[i].classList.add('swiper-slide');
     }
