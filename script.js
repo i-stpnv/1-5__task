@@ -21,7 +21,7 @@ if (document.documentElement.clientWidth < 768) {
         grabCursor: true,
         slideToClickedSlide: true,
         spaceBetween: 16,
-        /*
+        slidesOffsetAfter: 32,
         slidesPerView: 1.1,
         breakpoints: {
             320: {
@@ -43,7 +43,6 @@ if (document.documentElement.clientWidth < 768) {
                 slidesPerView: 2.2,
             },
         },
-        */
     });
 }
 
