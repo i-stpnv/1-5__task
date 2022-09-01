@@ -100,7 +100,6 @@ li > *, li a > * {
 }
 
 .brands-repair__item {
-    width: 240px;
     max-width: 240px;
     height: 72px;
     background-color: #FFFFFF;
@@ -181,6 +180,10 @@ li > *, li a > * {
         transition: all 0.2s ease-in-out;
     }
 
+    .brands-repair__item {
+        width: 224px;
+    }
+
     .brands-repair__expand-button {
         display: flex;
         align-items: center;
@@ -220,6 +223,10 @@ li > *, li a > * {
     .brands-repair__list {
         column-gap: 32px;
         margin: 24px 32px 0;
+    }
+
+    .brands-repair__item {
+        width: 240px;
     }
 
     .brands-repair__expand-button {
