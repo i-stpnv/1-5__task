@@ -100,7 +100,7 @@ li > *, li a > * {
 }
 
 .brands-repair__item {
-    min-width: 224px;
+    width: 240px;
     max-width: 240px;
     height: 72px;
     background-color: #FFFFFF;

@@ -10,7 +10,7 @@ if (document.documentElement.clientWidth < 768) {
         swiperSlides[i].classList.add('swiper-slide');
     }
 
-    const swiper = new Swiper('.brands-repair__content', {
+    const swiper = new Swiper('.brands-repair__list', {
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
