@@ -22,10 +22,10 @@ if (document.documentElement.clientWidth < 768) {
         slideToClickedSlide: true,
         spaceBetween: 16,
         slidesOffsetAfter: 32,
-        slidesPerView: 1.1,
+        slidesPerView: 1.2,
         breakpoints: {
             320: {
-                slidesPerView: 1.1,
+                slidesPerView: 1.2,
             },
             400: {
                 slidesPerView: 1.4,
